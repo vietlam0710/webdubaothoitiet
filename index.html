@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="lib.css">
+</head>
+<body>
+     <div class="flex">
+        <div class="w-3 bg-red-200 p-4" style="height: 100vh;">
+            <div>
+                <input onkeyup="handleClick(event)" class="border-round-xl border-none w-full p-2 " type="text">
+                <p class="text-right text-0 font">Enter to search...</p>
+            </div>
+    
+            <div id="city" class="font my-4"></div>
+                
+        </div>
+    
+    
+        <div id="content" class="w-8 p-5 font">
+            <div id="dailyShow" class="flex flex-wrap gap-5 font">
+                
+            </div>
+        </div>
+     </div>
+
+     
+
+
+    <script src="index.js"></script>
+</body>
+</html>
